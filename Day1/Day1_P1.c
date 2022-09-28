@@ -6,7 +6,7 @@ int main() {
   char buf[10];
   char *end;
   unsigned long count = 0, previous, current;
-  FILE* fp = fopen("Day1_P1_input", "r");
+  FILE* fp = fopen("Day1_input", "r");
   fgets(buf, sizeof buf, fp);
   previous = strtoul(buf, &end, 10);
   while (fgets(buf, sizeof buf, fp) != NULL) {
